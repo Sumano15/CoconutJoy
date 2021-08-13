@@ -21,7 +21,7 @@
               <h5 style="text-align:left; padding-left:15%;"><i class="fab fa-facebook" style="padding-right:10px;"></i>Facebook</h5>
               <h5 style="text-align:left; padding-left:15%;"><i class="fas fa-envelope" style="padding-right:10px;"></i>Email</h5>
               <h5 style="text-align:left; padding-left:15%;"><i class="fab fa-whatsapp" style="padding-right:10px;"></i>Whatsapp</h5> -->
-              @include('partial.form')
+              @include('partial.formEmail')
               <h1 class="text-white" style="text-align:left; padding-left:10%;">Follow Us :</h1>
               <div >
                 <a href="" style="display:inline;"><button type="button" class="btn btn-outline-light" style="margin:5px"><i class="fab fa-facebook" ></i></button></a>

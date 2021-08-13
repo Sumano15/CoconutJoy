@@ -7,7 +7,7 @@
           <button type="button" style="background-color: white" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" style="backgroud: black">
-            @include('partial.form')
+            @include('partial.formEmail')
             <h1 class="text-white" style="text-align:left; padding-left:10%;">Follow Us :</h1>
             <center>
                 <div >
