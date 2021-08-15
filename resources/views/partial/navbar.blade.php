@@ -5,9 +5,9 @@
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
-                    <li><a style="font-size: 25px;font-family: Philosopher-Bold;" href="#">About Us</a></li>
-                    <li><a style="font-size: 25px;font-family: Philosopher-Bold;" href="#">Product</a></li>
-                    <li><a style="font-size: 25px;font-family: Philosopher-Bold;" href="#">Our Teams</a></li>
+                    <li><a style="font-size: 25px;font-family: Philosopher-Bold;" href="#AboutUs">About Us</a></li>
+                    <li><a style="font-size: 25px;font-family: Philosopher-Bold;" href="#Product">Product</a></li>
+                    <li><a style="font-size: 25px;font-family: Philosopher-Bold;" href="#OurTeams">Our Teams</a></li>
                     <li class="d-block d-sm-block d-md-none"><a style="font-size: 25px;font-family: Philosopher-Bold;" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">Cotact Us</a></li>
                 </ul>
             </div>

@@ -1,4 +1,4 @@
-.carousel-item {
+.a {
     height: 100vh;
     min-height: 350px;
     background: no-repeat center center scroll;
@@ -8,3 +8,23 @@
     background-size: cover;
     background-attachment: fixed !important;
   }
+
+.b{
+  z-index: 0 !important;
+}
+
+.c{
+  z-index: 1 !important;
+}
+
+.img1{
+    background-image:url('/public/asset/foto/Cocco.jpg') ;
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed !important;
+}
