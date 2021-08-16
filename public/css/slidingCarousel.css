@@ -17,10 +17,14 @@
   z-index: 1 !important;
 }
 
+.kontengambar{
+  margin-top: 30vh;
+}
+
 .img1{
     background-image:url('/public/asset/foto/Cocco.jpg') ;
-    height: 100vh;
-    min-height: 350px;
+    height: 50vh;
+    /* min-height: 350px; */
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;

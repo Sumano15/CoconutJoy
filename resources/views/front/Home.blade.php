@@ -7,9 +7,12 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div> --}}
     <div class="carousel-inner">
-      <div class="carousel-item a active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+      <div class="carousel-item a active" style="background-image: url('/asset/foto/Cocco.jpg')">
+        <div class="kontengambar">
+          <center><p style="font-size: 70px;">Welcome To CoconutJoy.Id</p></center>
+        </div>
         <div class="carousel-caption b">
-            <center>
+            <center>  
                 <a href="#AboutUs">
                     <div class='scrolldown'>
                         <div class="chevrons">
@@ -19,51 +22,9 @@
                     </div>
                 </a>
             </center>
-          {{-- <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p> --}}
-        </div>
-      </div>
-      <div class="carousel-item a" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
-        <div class="carousel-caption b">
-          {{-- <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p> --}}
-          <center>
-            <a href="#AboutUs">
-                <div class='scrolldown'>
-                    <div class="chevrons">
-                      <div class='chevrondown'></div>
-                      <div class='chevrondown'></div>
-                    </div>
-                </div>
-            </a>
-        </center>
-        </div>
-      </div>
-      <div class="carousel-item a" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
-        <div class="carousel-caption b">
-          {{-- <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p> --}}
-          <center>
-            <a href="#AboutUs">
-                <div class='scrolldown'>
-                    <div class="chevrons">
-                      <div class='chevrondown'></div>
-                      <div class='chevrondown'></div>
-                    </div>
-                </div>
-            </a>
-        </center>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
 @endsection
 
@@ -90,96 +51,79 @@
             </div>
         </div>
     </section>
-    <section id="Product">
-        <div class="container my-5">
-            <center><p style="font-size: 80px;">Our Products</p></center>
-            <div class="section animate">
-                <div class="middle">
-                   <img src="https://images.unsplash.com/photo-1460400408855-36abd76648b9?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                </div>
-                <div class="left title">
-                   <div class="content">
-                      <h2>Product 1.</h2>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam obcaecati dignissimos, quae voluptatibus tempora aperiam corrupti animi! Minus dolor facilis voluptates fugiat atque voluptas autem sed possimus pariatur facere!</p>
-                      <a href="#" class="btn-primary">Learn more</a>
-                   </div>
-                </div>
-                <div class="right tiles">
-                   <img src="https://images.unsplash.com/photo-1460400408855-36abd76648b9?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                   <img src="https://images.unsplash.com/photo-1460400408855-36abd76648b9?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                   <img src="https://images.unsplash.com/photo-1460400408855-36abd76648b9?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                   <img src="https://images.unsplash.com/photo-1460400408855-36abd76648b9?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                </div>
-             </div>
-             
-             <div class="section">
-                <div class="middle">
-                   <img src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                </div>
-                <div class="right title">
-                   <div class="content">
-                    <h2>Product 2.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam obcaecati dignissimos, quae voluptatibus tempora aperiam corrupti animi! Minus dolor facilis voluptates fugiat atque voluptas autem sed possimus pariatur facere!</p>
-                    <a href="#" class="btn-primary">Learn more</a> 
-                </div>
-                </div>
-                
-                <div class="left tiles">
-                   <img src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                   <img src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                   <img src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                   <img src="https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                </div>
-                
-             </div>
-             
-             <div class="section">
-                <div class="middle">
-                   <img src="https://images.unsplash.com/photo-1465326117523-6450112b60b2?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                </div>
-                <div class="left title">
-                   <div class="content">
-                    <h2>Product 3.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam obcaecati dignissimos, quae voluptatibus tempora aperiam corrupti animi! Minus dolor facilis voluptates fugiat atque voluptas autem sed possimus pariatur facere!</p>
-                    <a href="#" class="btn-primary">Learn more</a>
-                </div>
-                </div>
-                
-                <div class="right tiles">
-                   <img src="https://images.unsplash.com/photo-1465326117523-6450112b60b2?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                   <img src="https://images.unsplash.com/photo-1465326117523-6450112b60b2?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                   <img src="https://images.unsplash.com/photo-1465326117523-6450112b60b2?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                   <img src="https://images.unsplash.com/photo-1465326117523-6450112b60b2?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                </div>
-                
-             </div>
-             
-             <div class="section">
-                <div class="middle">
-                   <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                </div>
-                <div class="right title">
-                   <div class="content">
-                    <h2>Product 4.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam obcaecati dignissimos, quae voluptatibus tempora aperiam corrupti animi! Minus dolor facilis voluptates fugiat atque voluptas autem sed possimus pariatur facere!</p>
-                    <a href="#" class="btn-primary">Learn more</a>
-                </div>
-                </div>
-                
-                <div class="left tiles">
-                   <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                   <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                   <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                   <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=format&crop=entropy&fit=crop&w=250&h=250&q=80" />
-                </div>
-                
-             </div>
+   <section id ="Product">
+    <div class="container">
+      <div class="row my-5">
+        <center><p style="font-size: 80px;">Product</p></center>
+      </div>
+      <div class="row my-5">
+        <div class="col-sm-12 col-md-4 col-lg-4 my-auto">
+          <h1><strong>Name</strong></h1>
+          <h2>desc</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsa numquam praesentium reiciendis magnam maxime doloribus, qui fugit odio optio dignissimos aliquam natus perferendis dicta repudiandae consequuntur, quisquam modi eligendi.</p>
         </div>
-    </section>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <img src="asset/foto/kopra.png" width="100%" alt="">
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 my-auto">
+          <h3>Something</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, numquam?</p>
+          <button class="btn btn-dark">tombol</button>
+        </div>
+      </div>
+    </div>
+   </section>
+   <section>
+    <div>
+        <div class="img1" style="background-image: url(/asset/foto/Cocco.jpg)"> 
+            
+        </div>
+    </div>
+  </section>
     <section id="OurTeams">
         <div class="container my-5">
             <center><p style="font-size:90px;">Our Team</p></center>
-            
+            <div class="row my-5">
+              <div class="col">
+                <div class="foto">
+                  <center><img src="asset/foto/abang1.jpg" width="50%" alt="">
+                  <h1>Abang 1</h1>
+                    <h6>jabatan</h6>
+                    <div class="mt-3" >
+                      {{-- <a href="" style="display:inline;"><button type="button" class="btn btn-outline-dark" style="margin:5px"><i class="fab fa-facebook" ></i></button></a> --}}
+                      <a href="https://www.instagram.com/coconutjoy.id" style="display:inline;"><button type="button" class="btn btn-outline-dark" style="margin:5px"><i class="fab fa-instagram"></i></button></a>
+                      {{-- <a href="https://api.whatsapp.com/send?phone=6281250098851&text=tes" style="display:inline;"><button type="button" class="btn btn-outline-dark" style="margin:5px"><i class="fab fa-whatsapp"></i></button></a> --}}
+                    </div>
+                  </center>
+                </div>
+              </div>
+              <div class="col">
+                <div class="foto">
+                  <center><img src="asset/foto/abang1.jpg" width="50%" alt="">
+                  <h1>Abang 2</h1>
+                    <h6>jabatan</h6>
+                    <div class="mt-3" >
+                      {{-- <a href="" style="display:inline;"><button type="button" class="btn btn-outline-dark" style="margin:5px"><i class="fab fa-facebook" ></i></button></a> --}}
+                      <a href="https://www.instagram.com/coconutjoy.id" style="display:inline;"><button type="button" class="btn btn-outline-dark" style="margin:5px"><i class="fab fa-instagram"></i></button></a>
+                      {{-- <a href="https://api.whatsapp.com/send?phone=6281250098851&text=tes" style="display:inline;"><button type="button" class="btn btn-outline-dark" style="margin:5px"><i class="fab fa-whatsapp"></i></button></a> --}}
+                    </div>
+                  </center>
+                </div>
+              </div>
+              <div class="col">
+                <div class="foto">
+                  <center><img src="asset/foto/abang1.jpg" width="50%" alt="">
+                  <h1>Abang 3</h1>
+                    <h6>jabatan</h6>
+                    <div class="mt-3" >
+                      {{-- <a href="" style="display:inline;"><button type="button" class="btn btn-outline-dark" style="margin:5px"><i class="fab fa-facebook" ></i></button></a> --}}
+                      <a href="https://www.instagram.com/coconutjoy.id" style="display:inline;"><button type="button" class="btn btn-outline-dark" style="margin:5px"><i class="fab fa-instagram"></i></button></a>
+                      {{-- <a href="https://api.whatsapp.com/send?phone=6281250098851&text=tes" style="display:inline;"><button type="button" class="btn btn-outline-dark" style="margin:5px"><i class="fab fa-whatsapp"></i></button></a> --}}
+                    </div>
+                  </center>
+                </div>
+              </div>
+            </div>
         </div>
     </section>
 @endsection

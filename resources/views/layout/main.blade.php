@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/slidingCarousel.css">
     <link rel="stylesheet" href="css/scrolldown.css">
     <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/team.css">
     <title>CoconutJoy | Home</title>
     <style>
     ::-webkit-scrollbar {
@@ -46,10 +47,9 @@
   <body>
     @include('partial.navbar')
     @include('partial.modal')
+    
     <div class="container-fluid m-0 p-0">
-      <header>
-        @yield('head')
-      </header>
+      @yield('head')
       @yield('main')
       @yield('foot')
     </div>
