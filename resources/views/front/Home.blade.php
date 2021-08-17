@@ -9,6 +9,7 @@
     <div class="carousel-inner">
       <div class="carousel-item a active" style="background-image: url('/asset/foto/Cocco.jpg')">
         <div class="kontengambar">
+          <center><h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></center>
           <center><p style="font-size: 70px;">Welcome To CoconutJoy.Id</p></center>
         </div>
         <div class="carousel-caption b">
