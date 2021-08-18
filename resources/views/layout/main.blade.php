@@ -44,14 +44,12 @@
     }
     </style>
   </head>
-  <body>
-    @include('partial.navbar')
-    @include('partial.modal')
-    
+  <body>    
     <div class="container-fluid m-0 p-0">
       @yield('head')
       @yield('main')
       @yield('foot')
+      @yield('detail')
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="js/navbar.js"></script>

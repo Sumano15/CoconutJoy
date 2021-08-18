@@ -1,5 +1,7 @@
 @extends('layout.main')
 @section('head')
+@include('partial.navbar')
+@include('partial.modal')
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     {{-- <div class="carousel-indicators c">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -8,7 +10,7 @@
     </div> --}}
     <div class="carousel-inner">
       <div class="carousel-item a active" style="background-image: url('/asset/foto/Cocco.jpg')">
-        <div class="kontengambar">
+        <div class="kontengambar" style="  margin-top: 30vh;">
           <center><h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></center>
           <center><p style="font-size: 70px;">Welcome To CoconutJoy.Id</p></center>
         </div>
@@ -52,35 +54,101 @@
             </div>
         </div>
     </section>
-   <section id ="Product">
-    <div class="container">
-      <div class="row my-5">
-        <center><p style="font-size: 80px;">Product</p></center>
+    <section id ="Product">
+      <div class="container" >
+        <div class="row my-5">
+          <center><p style="font-size: 80px;">Product</p></center>
+        </div>
+        <div class="row my-5" id="p1">
+          <div class="col-sm-12 col-md-4 col-lg-4 my-auto">
+            <h1><strong>Name1</strong></h1>
+            <h2>desc</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsa numquam praesentium reiciendis magnam maxime doloribus, qui fugit odio optio dignissimos aliquam natus perferendis dicta repudiandae consequuntur, quisquam modi eligendi.</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="row">
+              <img src="asset/foto/kopra.png" width="100%" alt="">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 my-auto">
+            <h3>Something</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, numquam?</p>
+            <button class="btn btn-dark">tombol</button>
+          </div>
+        </div>
+
+        <div class="row my-5" id="p2">
+          <div class="col-sm-12 col-md-4 col-lg-4 my-auto">
+            <h1><strong>Name2</strong></h1>
+            <h2>desc</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsa numquam praesentium reiciendis magnam maxime doloribus, qui fugit odio optio dignissimos aliquam natus perferendis dicta repudiandae consequuntur, quisquam modi eligendi.</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="row">
+              <img src="asset/foto/kopra.png" width="100%" alt="">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 my-auto">
+            <h3>Something</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, numquam?</p>
+            <button class="btn btn-dark">tombol</button>
+          </div>
+        </div>
+
+        <div class="row my-5" id="p3">
+          <div class="col-sm-12 col-md-4 col-lg-4 my-auto">
+            <h1><strong>Name3</strong></h1>
+            <h2>desc</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsa numquam praesentium reiciendis magnam maxime doloribus, qui fugit odio optio dignissimos aliquam natus perferendis dicta repudiandae consequuntur, quisquam modi eligendi.</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="row">
+              <img src="asset/foto/kopra.png" width="100%" alt="">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 my-auto">
+            <h3>Something</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, numquam?</p>
+            <button class="btn btn-dark">tombol</button>
+          </div>
+        </div>
+
+        <div class="row my-5" id="p4">
+          <div class="col-sm-12 col-md-4 col-lg-4 my-auto">
+            <h1><strong>Name4</strong></h1>
+            <h2>desc</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsa numquam praesentium reiciendis magnam maxime doloribus, qui fugit odio optio dignissimos aliquam natus perferendis dicta repudiandae consequuntur, quisquam modi eligendi.</p>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="row">
+              <img src="asset/foto/kopra.png" width="100%" alt="">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 my-auto">
+            <h3>Something</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, numquam?</p>
+            <button class="btn btn-dark">tombol</button>
+          </div>
+        </div>
+        <div class="row">
+          <center>
+            <ul>
+              <li style="display: inline; padding:5px; cursor: pointer;" id="cl1"><img src="asset/foto/kopra.png" width="10%" alt=""></li>
+              <li style="display: inline; padding:5px; cursor: pointer;" id="cl2"><img src="asset/foto/kopra.png" width="10%" alt=""></li>
+              <li style="display: inline; padding:5px; cursor: pointer;" id="cl3"><img src="asset/foto/kopra.png" width="10%" alt=""></li>
+              <li style="display: inline; padding:5px; cursor: pointer;" id="cl4"><img src="asset/foto/kopra.png" width="10%" alt=""></li>
+            </ul>
+          </center>
+        </div>
       </div>
-      <div class="row my-5">
-        <div class="col-sm-12 col-md-4 col-lg-4 my-auto">
-          <h1><strong>Name</strong></h1>
-          <h2>desc</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsa numquam praesentium reiciendis magnam maxime doloribus, qui fugit odio optio dignissimos aliquam natus perferendis dicta repudiandae consequuntur, quisquam modi eligendi.</p>
-        </div>
-        <div class="col-sm-12 col-md-4 col-lg-4">
-          <img src="asset/foto/kopra.png" width="100%" alt="">
-        </div>
-        <div class="col-sm-12 col-md-4 col-lg-4 my-auto">
-          <h3>Something</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, numquam?</p>
-          <button class="btn btn-dark">tombol</button>
-        </div>
+    </section>
+    <section>
+      <div>
+          <div class="img1" style="background-image: url(/asset/foto/Cocco.jpg)"> 
+              
+          </div>
       </div>
-    </div>
-   </section>
-   <section>
-    <div>
-        <div class="img1" style="background-image: url(/asset/foto/Cocco.jpg)"> 
-            
-        </div>
-    </div>
-  </section>
+    </section>
     <section id="OurTeams">
         <div class="container my-5">
             <center><p style="font-size:90px;">Our Team</p></center>
@@ -175,4 +243,37 @@
         </div>
     </div>
 </footer>
+<script>
+  $("#p2").hide();
+  $("#p3").hide();
+  $("#p4").hide();
+  
+  $( "#cl1" ).click(function() {
+   $("#p1").fadeIn();
+   $("#p2").hide();
+   $("#p3").hide();
+   $("#p4").hide();
+  });
+
+  $( "#cl2" ).click(function() {
+   $("#p1").hide();
+   $("#p2").fadeIn();
+   $("#p3").hide();
+   $("#p4").hide();
+  });
+
+  $( "#cl3" ).click(function() {
+   $("#p1").hide();
+   $("#p2").hide();
+   $("#p3").fadeIn();
+   $("#p4").hide();
+  });
+
+  $( "#cl4" ).click(function() {
+   $("#p1").hide();
+   $("#p2").hide();
+   $("#p3").hide();
+   $("#p4").fadeIn();
+  });
+</script>
 @endsection
